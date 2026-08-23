@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment secrets
+.env
+
+# Database (generated at runtime - do not commit real class data)
+database/*.db
+database/*.db-journal
+database/*.db-wal
+database/*.db-shm
+
+# Uploaded files (receipts, report attachments)
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
